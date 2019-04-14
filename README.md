@@ -1,34 +1,24 @@
 # Integrating the awscli interface using Okta:
 
+## Prerequisites 
+Verify you've Java installed
+
 ## Installation and Configuration:
 
-  - Download the following *tar.gz* file [here](https://github.com/oktadeveloper/okta-aws-cli-assume-role/releases)
-         
-    - Run the following commands:
-        ```sh
-            tar -xvzf okta-aws-cli-assume-role-2.0.0.tar.gz
-            okta-aws-cli-assume-role-2.0.0/bin/install.sh -i
-        ```
-    - In the ~/.okta folder, edit the file named config.properties:
-        ```sh
-            vim ~/.okta/config.properties
-        ```
-        - OKTA_ORG is the FQDN of your Okta org (such as blabla.okta.com)
-        - OKTA_AWS_APP_URL is the AWS App Embed URL from the General tab of your AWS application in your Okta org, please use the following: https://blabla.okta.com/home/amazon_aws/111111OOOOOOOOSDASDas/272
-    
-       - Example of ~/.okta/config.properties file:
-        ```sh
-            #OktaAWSCLI
-            OKTA_ORG=blabla.okta.com
-            OKTA_AWS_APP_URL=https://blabla.okta.com/home/amazon_aws/111111OOOOOOOOSDASDas/272
-            OKTA_USERNAME=or@blabla.com
-        ``` 
-    - Copy the Okta's scripts to your PATH:
-      ```sh
-        cp -rv ~/.okta/bin/* /usr/local/bin/
-      ```
+  - Download the following *okta-awscli* bash script [here](https://raw.githubusercontent.com/orco49/test/master/okta-awscli.sh)         
 
-## Execution
+## Script usage:
+
+- The script requires 2 arguments: package version (for example 2.0.0) and your e-mail address
+
+- Verify the package version [here] (https://github.com/oktadeveloper/okta-aws-cli-assume-role/releases)
+
+#Example - how to run the script
+```sh
+./okta-awscli.sh 2.0.0 or@lemonade.com
+```
+
+## Execution 
 
 ###### Obtain Assertion and Request Token
   
