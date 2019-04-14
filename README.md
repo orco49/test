@@ -1,10 +1,9 @@
 ## Integrating the awscli interface using Okta:
 
-• Installation and Configuration:
+###### Installation and Configuration:
 
-  - Download the following tar.gz file from:
-         https://github.com/oktadeveloper/okta-aws-cli-assume-role/releases
-
+  - Download the following *tar.gz* file [here](https://github.com/oktadeveloper/okta-aws-cli-assume-role/releases)
+         
     - Run the following commands:
         ```sh
             tar -xvzf okta-aws-cli-assume-role-2.0.0.tar.gz
@@ -24,15 +23,16 @@
             OKTA_AWS_APP_URL=https://lemonade.okta.com/home/amazon_aws/0oa9qbab5X7BfzpF1356/272
             OKTA_USERNAME=or@lemonade.com
         ``` 
-    - Copy the sripts to your PATH:
-      - ```sh
+    - Copy the Okta's scripts to your PATH:
+      ```sh
         cp -rv ~/.okta/bin/* /usr/local/bin/
-        ```
+      ```
 
-## Execution
+###### Execution
 
 • Obtain Assertion and Request Token
-    - Run the following command:
+  
+  - Run the following command:
     ```sh
        awscli
     ```
