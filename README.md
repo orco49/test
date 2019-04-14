@@ -5,13 +5,15 @@ Verify you've Java installed
 
 ## Installation and Configuration:
 
-  - Download the following *okta-awscli* bash script [here](https://raw.githubusercontent.com/orco49/test/master/okta-awscli.sh)         
+  - Download the following *okta-awscli* bash script [download this](https://raw.githubusercontent.com/orco49/test/master/okta-awscli.sh)         
 
 ## Script usage:
 
-- The script requires 2 arguments: package version (for example 2.0.0) and your e-mail address
+- The script requires 2 arguments: 
+    1) package version (for example 2.0.0) 
+    2) your e-mail address
 
-- Verify the package version [here] (https://github.com/oktadeveloper/okta-aws-cli-assume-role/releases)
+- Verify the package version [here](https://github.com/oktadeveloper/okta-aws-cli-assume-role/releases)
 
 #Example - how to run the script
 ```sh
