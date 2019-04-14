@@ -1,6 +1,6 @@
-## Integrating the awscli interface using Okta:
+# Integrating the awscli interface using Okta:
 
-###### Installation and Configuration:
+## Installation and Configuration:
 
   - Download the following *tar.gz* file [here](https://github.com/oktadeveloper/okta-aws-cli-assume-role/releases)
          
@@ -14,7 +14,7 @@
             vim ~/.okta/config.properties
         ```
         - OKTA_ORG is the FQDN of your Okta org (such as lemonade.okta.com)
-        - OKTA_AWS_APP_URL is the AWS App Embed URL from the General tab of your AWS application in your Okta org, please use the following URL --> https://lemonade.okta.com/home/amazon_aws/0oa9qbab5X7BfzpF1356/272
+        - OKTA_AWS_APP_URL is the AWS App Embed URL from the General tab of your AWS application in your Okta org, please use the following: https://lemonade.okta.com/home/amazon_aws/0oa9qbab5X7BfzpF1356/272
     
        - Example of ~/.okta/config.properties file:
         ```sh
@@ -28,9 +28,9 @@
         cp -rv ~/.okta/bin/* /usr/local/bin/
       ```
 
-###### Execution
+## Execution
 
-• Obtain Assertion and Request Token
+###### Obtain Assertion and Request Token
   
   - Run the following command:
     ```sh
