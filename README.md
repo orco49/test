@@ -13,15 +13,15 @@
         ```sh
             vim ~/.okta/config.properties
         ```
-        - OKTA_ORG is the FQDN of your Okta org (such as lemonade.okta.com)
-        - OKTA_AWS_APP_URL is the AWS App Embed URL from the General tab of your AWS application in your Okta org, please use the following: https://lemonade.okta.com/home/amazon_aws/0oa9qbab5X7BfzpF1356/272
+        - OKTA_ORG is the FQDN of your Okta org (such as blabla.okta.com)
+        - OKTA_AWS_APP_URL is the AWS App Embed URL from the General tab of your AWS application in your Okta org, please use the following: https://blabla.okta.com/home/amazon_aws/111111OOOOOOOOSDASDas/272
     
        - Example of ~/.okta/config.properties file:
         ```sh
             #OktaAWSCLI
-            OKTA_ORG=lemonade.okta.com
-            OKTA_AWS_APP_URL=https://lemonade.okta.com/home/amazon_aws/0oa9qbab5X7BfzpF1356/272
-            OKTA_USERNAME=or@lemonade.com
+            OKTA_ORG=blabla.okta.com
+            OKTA_AWS_APP_URL=https://blabla.okta.com/home/amazon_aws/111111OOOOOOOOSDASDas/272
+            OKTA_USERNAME=or@blabla.com
         ``` 
     - Copy the Okta's scripts to your PATH:
       ```sh
