@@ -5,7 +5,7 @@ Verify you've Java installed
 
 ## Installation and Configuration:
 
-  - Download the following *okta-awscli* bash script [here]{{https://raw.githubusercontent.com/orco49/test/master/okta-awscli.sh}}         
+  - Download the following *okta-awscli* bash script [here](https://raw.githubusercontent.com/orco49/test/master/okta-awscli.sh)         
 
 ## Script usage:
 
